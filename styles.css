@@ -1,8 +1,8 @@
 body {
-  background-color: #ababab;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #ababab
 }
 
 header {
@@ -94,7 +94,7 @@ h2 {
   text-decoration: none;
   color: inherit;
   padding: 2px;
-  margin: 5px;
+  margin-top: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
