@@ -1,4 +1,5 @@
 body {
+  background-color: #ababab
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -61,7 +62,6 @@ nav ul li {
 }
 
 main {
-  background-color: #ababab;
   margin-top: 220px; /* Высота header */
   margin-bottom: 35px; /* Высота footer */
   padding: 20px;
