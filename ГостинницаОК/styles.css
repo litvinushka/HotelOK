@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #000; /* Добавляем рамку толщиной 2px */
+  position: fixed; /* Фиксированная позиция, чтобы оставаться на экране */
+  top: 0; /* Подгоняем блок header к верхнему краю экрана */
+  left: 0; /* Подгоняем блок header к левому краю экрана */
+  width: 100%; /* Занимает 100% ширины экрана */
+  height: 220px;
+  z-index: 100; /* Задаем значение z-index для расположения элемента "поверх" остального контента */
+}
+
+.header-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+main {
+  background-color: #ababab;
+  margin-top: 220px; /* Высота header */
+  margin-bottom: 35px; /* Высота footer */
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 48px;
+}
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.room {
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  background-color: #f2f2f2;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.room h3 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.room p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #888;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
